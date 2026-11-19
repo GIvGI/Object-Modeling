@@ -22,7 +22,7 @@ def test_remove_pizza():
     pizza4 = Mock()
     pizza4.name = "delic"
     carte = CartePizzeria([pizza4])
-
+#hi
     carte.remove_pizza("delic")
 
     assert carte._CartePizzeria__pizzas == []
